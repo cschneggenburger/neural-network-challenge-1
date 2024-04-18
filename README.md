@@ -10,15 +10,15 @@ The business team has given you a CSV file that contains information about previ
 One jupyter notebook "student_loans_with_deep_learning.ipynb" holds the entire application/modeling and analysis. This file shows the workings of a neural network to determine if a student will repay their loans. During the process of creating the model, the model was saved as "student_loans.keras" that is also in this repo.
 
 # Functions/Dependencies
-import pandas as pd
-import tensorflow as tf
-from tensorflow.keras.layers import Dense
-from tensorflow.keras.models import Sequential
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import classification_report
-from pathlib import Path
-from google.colab import drive
+- import pandas as pd
+- import tensorflow as tf
+- from tensorflow.keras.layers import Dense
+- from tensorflow.keras.models import Sequential
+- from sklearn.model_selection import train_test_split
+- from sklearn.preprocessing import StandardScaler
+- from sklearn.metrics import classification_report
+- from pathlib import Path
+- from google.colab import drive
 
 # Analysis
 My model performed with an accuracy of 75.5% and a loss of .529. Further tuning or data gathering would be appropriate for this model to reduce the loss in training to provide a better model for predicting loan repayment. 
