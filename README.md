@@ -18,7 +18,6 @@ One jupyter notebook "student_loans_with_deep_learning.ipynb" holds the entire a
 - from sklearn.preprocessing import StandardScaler
 - from sklearn.metrics import classification_report
 - from pathlib import Path
-- from google.colab import drive
 
 # Analysis
 My model performed with an accuracy of 75.5% and a loss of .529. Further tuning or data gathering would be appropriate for this model to reduce the loss in training to provide a better model for predicting loan repayment. 
